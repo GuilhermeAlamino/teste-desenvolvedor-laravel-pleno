@@ -34,7 +34,6 @@ A seguir, estão as tarefas que você deverá realizar como parte deste teste:
 
 3. Para cada tarefa, crie um commit separado com uma mensagem clara e descritiva.
 
-4. Ao concluir todas as tarefas, envie um pull request para o branch principal do repositório.
 
 ## Considerações Finais
 
