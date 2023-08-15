@@ -4,7 +4,7 @@ Este projeto possui 3 entidades(funcionarios,departamentos,tarefas) e para cada 
 
 A Aplicação contém Autenticação padrão do Laravel, a onde somente usuario que estão no banco de dados na tabela users conseguem acessar e suporta operações de (criar, ler, atualizar e excluir).
 
-A Aplicação também possui E-mail de Verificação o botão pra essa ação está na tela de *Gerenciar Usúarios* e utilizei o Notifications pra disparar a notificação e usei o service (Mailtrap) podera utilizar alguma das credências que sejam validas também de outros services pra testar.
+A Aplicação também possui E-mail de Verificação o botão pra essa ação está na tela de *Gerenciar Usúarios* e utilizei o Notifications pra disparar a notificação e usei o service (Mailtrap) vocÊ pode utilizar outros serviços pra testar (se quiser).
 
 exemplo: 
 ```dosini
