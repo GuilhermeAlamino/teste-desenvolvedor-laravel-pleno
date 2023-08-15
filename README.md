@@ -64,16 +64,25 @@ exemplo:
 ### 3) Instale os pacotes e dependências
 `Composer install ou Composer update`
 
-### 4) Gere a key do laravel
+### 4) Crie seu Banco de dados e Atualize `*(.env)*` laravel, vai existir o `*.env.example*` crie um arquivo `*(.env)*` portanto não esqueça de criar um banco de dados e deixar o mesmo nessa variável `*DB_DATABASE*`
+
+exemplo:
+```dosini
+DB_DATABASE=company_management
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 5) Gere a key do laravel
 `php artisan key:generate`
 
-### 5) Rode as migrações do Banco de dados
+### 6) Rode as migrações do Banco de dados
 `php artisan migrate`
 
-### 6) Execute a o projeto Laravel com o seguinte comando, optei por rodar na porta 8001.
+### 7) Execute a o projeto Laravel com o seguinte comando, optei por rodar na porta 8001.
 `php artisan serve --port=8001`
 
-### 7) Está é URL que está rodando a aplicação acesse:
+### 8) Está é URL que está rodando a aplicação acesse:
 `http://127.0.0.1:8001 ou http://localhost:8001/`
 
 ### Observações:
