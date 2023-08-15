@@ -79,10 +79,13 @@ DB_PASSWORD=
 ### 6) Rode as migrações do Banco de dados
 `php artisan migrate`
 
-### 7) Execute a o projeto Laravel com o seguinte comando, optei por rodar na porta 8001.
+### 7) Rode as seeds pra popular o banco com dados pra facilitar o teste.
+`php artisan db:seed`
+
+### 8) Execute a o projeto Laravel com o seguinte comando, optei por rodar na porta 8001.
 `php artisan serve --port=8001`
 
-### 8) Está é URL que está rodando a aplicação acesse:
+### 9) Está é URL que está rodando a aplicação acesse:
 `http://127.0.0.1:8001 ou http://localhost:8001/`
 
 ### Observações:
